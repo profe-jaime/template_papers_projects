@@ -16,6 +16,14 @@ Este proyecto genera perfiles de expertos en causalidad, prepara propuestas para
 3. Ejecuta `empirical/02_estimators.ipynb` para reproducir análisis (requiere Python con dependencias instaladas).
 4. Consulta `reviewer_package/simulated_reviews.md` y `expanded_reviews/` para feedback simulado.
 
+## Assets Locales y Releases
+
+El archivo `reviewer_package.zip` se mantiene intencionalmente fuera del control de versión en el repositorio principal y se guarda en la carpeta local `releases/` para evitar subir archivos binarios grandes al repositorio. Si necesitas compartir el paquete con un colaborador, comprímelo y envíalo por un canal seguro o súbelo a un servicio de almacenamiento (p. ej., Google Drive, Dropbox) y añade un enlace en este README.
+
+Notas:
+- `releases/` está listado en `.gitignore` y no se sincroniza con el remoto.
+- Para regenerar el paquete, consulta `expert_report_project/reviewer_package/`.
+
 ## Instalación y Dependencias
 Para cada nuevo directorio donde trabajes con este proyecto, instala un ambiente independiente usando `mamba` para evitar conflictos de versiones y desorden con Python.
 
