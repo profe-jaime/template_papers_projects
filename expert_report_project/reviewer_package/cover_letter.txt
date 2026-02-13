@@ -1,0 +1,14 @@
+Dear Editor,
+
+Please consider our manuscript entitled "A practical framework for identification and robust estimation with proxy variables" for publication in [Journal Name]. The paper addresses a common problem in observational studies—unobserved confounding—and provides a reproducible toolkit combining SCM/DAG identification, IPTW/TMLE/DML estimators and proximal methods, together with diagnostics and robustness checks.
+
+Our contribution is (i) a clear practical workflow for applied researchers to construct DAGs and identify estimands under proxy information; (ii) an evaluation of robust estimators across simulated confounding scenarios; and (iii) fully reproducible code and supplementary materials to facilitate adoption.
+
+We believe the manuscript fits [Journal Name] because of its methodological rigor combined with reproducibility and clear applied guidance for practitioners.
+
+Data and code to reproduce the results are available in the supplementary repository (link provided upon request or to be hosted on GitHub upon submission).
+
+Best regards,
+[Lead author name]
+[Affiliation]
+[Contact email]

@@ -1,0 +1,41 @@
+Subject: Invitation to review short proposal — "A practical framework for identification and robust estimation with proxy variables"
+
+Dear [Dr. LastName],
+
+I hope you are well. I am writing to ask if you would kindly provide a short expert review (2 weeks) of a methods+applied proposal titled "A practical framework for identification and robust estimation with proxy variables." The goal is to get focused feedback from 2–3 domain experts before submitting to a Q2/Q3 journal.
+
+What we request (brief):
+- Read the attached `proposal_v2.md` and answer the attached `reviewer_questionnaire.md`.
+- Focus areas: (i) identification assumptions and DAGs, (ii) choice of estimand (ATE pre-specified), (iii) suitability of TMLE/IPTW/DML as the estimation strategy, and (iv) suggested robustness checks or datasets.
+- Run the provided notebook `02_estimators.ipynb` if desired; data and instructions are in the package. Quick run instructions:
+
+  1) Unzip reviewer_package.zip into a folder.
+  2) Create a Python environment and install essentials:
+     python3 -m venv venv && source venv/bin/activate
+     pip install --upgrade pip
+     pip install numpy pandas scikit-learn statsmodels
+  3) Open `02_estimators.ipynb` in Jupyter and follow the first cells (or run the provided scripts).
+
+Confidentiality and conflicts:
+- This is an informal pre-submission review; please treat the materials as confidential. If you have any conflict (recent coauthorship or same project), kindly let us know and decline.
+
+Timeline and deliverable:
+- If possible, please send the completed `reviewer_questionnaire.md` (inline answers or annotated) within 14 days. A brief email with major points is also welcome.
+
+Attachments included in the ZIP:
+- proposal_v2.md
+- reviewer_questionnaire.md
+- 02_estimators.ipynb
+- ihdp.csv (synthetic test dataset)
+- cover_letter.txt
+- submission_checklist.md
+- journal_quartiles.csv
+
+If you accept, I can (i) record your consent and any conflicts, and (ii) follow up with a short calendar invite and deadline reminder.
+
+Many thanks for considering — your expertise would be extremely valuable to strengthen the manuscript.
+
+Best regards,
+[Lead author name]
+[Affiliation]
+[Contact email]
