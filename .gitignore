@@ -11,3 +11,6 @@
 *.pdf
 __pycache__/
 .ipynb_checkpoints/
+
+# Local release artifacts
+releases/
